@@ -6,16 +6,14 @@ using System.Web.Mvc;
 
 namespace RazorApp.Controllers
 {
-    public class ComicBookController : Controller
+    public class LoginController : Controller
     {
-        // GET: ComicBook
-        //public ActionResult Index()
-        //{
-        //    return View();
-        //}
-        public ViewResult Details()
+        // GET: Login
+        public ActionResult Index()
         {
             return View();
         }
+
+        public 
     }
 }
